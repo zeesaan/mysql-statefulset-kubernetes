@@ -11,7 +11,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   nfs:
-    server: 192.168.9.2 # NFS server IP address 
+    server: 192.168.5.65 # NFS server IP address 
     path: "/Public/k8s_storage/dnetwebmysql/mysql1"   # NFS share location
 
 ---
@@ -28,7 +28,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   nfs:
-    server: 192.168.9.2 # NFS server IP address 
+    server: 192.168.5.65 # NFS server IP address 
     path: "/Public/k8s_storage/dnetwebmysql/mysql2"   # NFS share location
 
 ---
@@ -45,7 +45,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   nfs:
-    server: 192.168.9.2 # NFS server IP address 
+    server: 192.168.5.65 # NFS server IP address 
     path: "/Public/k8s_storage/dnetwebmysql/mysql3"   # NFS share location
 
 
@@ -64,5 +64,5 @@ spec:
   accessModes:
     - ReadWriteOnce
   nfs:
-    server: 192.168.9.2 # NFS server IP address 
+    server: 192.168.5.65 # NFS server IP address 
     path: "/Public/k8s_storage/dnetwebmysql/mysql4"   # NFS share location
